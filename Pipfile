@@ -8,6 +8,7 @@ django = "*"
 pandas = "*"
 djangorestframework = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
