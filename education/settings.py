@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-6cc(g$-(hgi(+$hune1=(mlm8=^f#-1wsl_a-#j=w0sy_a(%34
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', "myeducationapi.herokuapp.com"]
 
 
 # Application definition
