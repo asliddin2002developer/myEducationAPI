@@ -9,6 +9,7 @@ pandas = "*"
 djangorestframework = "*"
 gunicorn = "*"
 whitenoise = "*"
+django-filter = "*"
 
 [dev-packages]
 

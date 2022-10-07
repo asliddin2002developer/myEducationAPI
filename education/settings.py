@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'center.apps.CenterConfig',
     'rest_framework',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -41,6 +42,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'education.urls'
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+}    
 
 TEMPLATES = [
     {
